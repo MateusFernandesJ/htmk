@@ -1,0 +1,85 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Digital";
+    src: url(../RECURSOS/fonts/digital\ 7/digital-7.ttf);
+}
+@font-face {
+    font-family: "Magnetar";
+    src: url(../RECURSOS/fonts/Magnetar/Magnetar.otf);
+}
+:root {
+    --fontTitle: Magnetar;
+}
+
+html {
+    background-image: url(../RECURSOS/IMG/red-gradient-texture-illustration.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+}
+body {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h1 {
+    color: white;
+
+}
+a#t1 {
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    font-family: var(--fontTitle);
+    text-decoration: none;
+    display: block;
+    width: 470px;
+    margin: 20px auto 40px auto;
+}
+div#barra {
+    background-color: rgba(50, 17, 104, 0.829);
+    width: 99.3%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0px 0px 10px rgba(50, 17, 104, 0.829);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nav {
+    display: flex;
+    color: white;
+    margin: 0px 40px;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+    transition: all 0.4s;
+    font-size: large;
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.nav:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+div#texto {
+    max-width: 60vw;
+    height: min-content;
+    background-image: linear-gradient(to right, rgba(189, 0, 0, 0.9), rgba(206, 134, 0, 0.9), rgba(180, 180, 1, 0.9),rgba(0, 134, 0, 0.9),rgba(29, 72, 87, 0.9),rgba(0, 0, 173, 0.9),rgba(163, 1, 163, 0.9));
+    margin: auto;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.lgbt {
+    margin: 20px;
+
+}
+h2 {
+    text-align: center;
+}

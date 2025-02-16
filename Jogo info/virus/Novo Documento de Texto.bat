@@ -1,0 +1,2 @@
+do 
+msg "Legal"

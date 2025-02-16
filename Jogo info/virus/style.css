@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+html {
+    background-image: url(../RECURSOS/IMG/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+    background-size: cover;
+}
+html, body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+button {
+    width: 100px;
+    height: 100px;
+    color: black;
+}
+div#aviso {
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+div#dentro {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.p1 {
+    font-size: 3em;
+    margin: 10px;
+}

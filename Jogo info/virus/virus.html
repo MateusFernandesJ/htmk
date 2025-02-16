@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vírus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../RECURSOS/Favicon/favicon2.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="aviso">
+        <p id="hack">Você foi hackeado!!!</p>
+        <p id="clique">
+            Aperte aqui para recuperar seus dados
+        </p>
+
+        <div id="dentro">
+            <p class="p1">→</p>
+            <button onclick="executarBat()">Executar Script</button>
+            <p class="p1">←</p>
+        </div>
+    </div>
+    <a href="../le.html" target="_blank" rel="noopener noreferrer">não aperte aqui</a>
+   
+
+<script>
+function executarBat() {
+    fetch("http://127.0.0.1:3000/run-bat")
+        .then(response => response.text())
+        .then(data => alert(data))
+        .catch(error => console.error("Erro:", error));
+}
+</script>
+</body>
+</html>
