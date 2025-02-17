@@ -10,6 +10,23 @@
 :root {
     --fontTitle: Magnetar;
 }
+@media (max-width: 1000px) {
+    div#barra {
+        transform: scale(0.9);
+    }
+    a#t1 {
+        transform: scale(0.8);
+    }
+}
+@media (max-width: 1600px) {
+    div#pesquisa {
+        flex-wrap: wrap;
+    }
+    .jogos {
+        margin: 20px 40px !important;
+    }
+}
+
 
 html {
     background-image: url(RECURSOS/IMG/red-gradient-texture-illustration.jpg);
